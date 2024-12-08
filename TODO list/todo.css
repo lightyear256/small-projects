@@ -1,0 +1,65 @@
+
+
+*{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.input{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+input{
+    height: 10px;
+    width: 250px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    
+}
+.hero{
+    display: flex;
+    justify-content: start;
+    column-gap: 15px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.head{
+    font-size: 30px;
+    
+    font-weight: 700;
+    color: white;
+}
